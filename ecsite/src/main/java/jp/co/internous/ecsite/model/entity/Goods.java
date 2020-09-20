@@ -19,7 +19,7 @@ public class Goods {
 	private long id;
 	
 	@Column(name="goods_name")
-	private String goodName;
+	private String goodsName;
 	
 	@Column(name="price")
 	private long price;
@@ -35,12 +35,12 @@ public class Goods {
 		this.id=id;
 	}
 	
-	public String getGoodName() {
-		return goodName;
+	public String getGoodsName() {
+		return goodsName;
 	}
 	
-	public void setGoodName(String goodName) {
-		this.goodName=goodName;
+	public void setGoodsName(String goodsName) {
+		this.goodsName=goodsName;
 	}
 	public long getPrice() {
 		return price;

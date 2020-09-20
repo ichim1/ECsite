@@ -10,6 +10,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="user")
 public class User {
+	
 	@Id
 	@Column(name="id")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -32,7 +33,7 @@ public class User {
 	}
 	
 	public void setId(long id) {
-		this.id=id;
+		this.id = id;
 	}
 	
 	public String getUserName() {
@@ -40,28 +41,28 @@ public class User {
 	}
 	
 	public void setUserName(String userName) {
-		this.userName=userName;
+		this.userName = userName;
 	}
 	public String getPassword() {
 		return password;
 	}
 	
 	public void setPassword(String password) {
-		this.password=password;
+		this.password = password;
 	}
 	public String getFullName() {
 		return fullName;
 	}
 	
 	public void setFullName(String fullName) {
-		this.fullName=fullName;
+		this.fullName = fullName;
 	}
 	public int getIsAdmin() {
 		return isAdmin;
 	}
 	
 	public void setIsAdmin(int isAdmin) {
-		this.isAdmin=isAdmin;
+		this.isAdmin = isAdmin;
 	}
 
 
